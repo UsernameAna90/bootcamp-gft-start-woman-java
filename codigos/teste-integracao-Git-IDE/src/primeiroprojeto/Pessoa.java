@@ -32,4 +32,8 @@ public class Pessoa {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + "]";
 	}
 	
+	public void andar() {
+		System.out.print("Andando...");
+	}
+	
 }

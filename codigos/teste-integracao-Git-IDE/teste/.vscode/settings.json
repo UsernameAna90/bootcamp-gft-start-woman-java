@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+    ],
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_331"
+}

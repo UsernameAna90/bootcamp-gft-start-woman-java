@@ -25,5 +25,7 @@ public class Variaveis {
         String Nome = "Sabrina";
         int An0N4sc1m3nt0 = 1989;
         final int numeroCpf = 00011122235;
+
+        System.out.println("Nome: " + nome +"\nIdade: " + idade + "\nAno de Nascimento: " + anoNascimento);
     }
 }

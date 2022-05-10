@@ -15,16 +15,16 @@ Os tipos de dados definem quais valores uma variável ou constante podem assumir
 ### Dados primitivos
 
 * Texto
-<br/>° Char, armazena um caractere;
-<br/>° String, armazena um conjunto de caracteres;
+<br/>° Char, armazena um caractere; Armazenadas entre aspas simples;
+<br/>° String, armazena um conjunto de caracteres; Armazenadas entre aspas duplas;
 
 * Numérico
 <br/>° Byte, armazena um número inteiro pequeno (até 127);
 <br/>° Short, armazena um número inteiro pequeno um pouco maior (até 32.767);
 <br/>° Int, armazena um número inteiro (até 2M +);
-<br/>° Long, armazena um número maior (até 9E +);
-<br/>° Float, armazena um número decimal pequeno (até 3.4E+38);
-<br/>° Double, armazena um número decimal maior (até 1.7E+308);
+<br/>° Long, armazena um número maior (até 9E +); Os valores devem finalizar com "L";
+<br/>° Float, armazena um número decimal pequeno (até 3.4E+38); Os valores devem finalizar com "f";
+<br/>° Double, armazena um número decimal maior (até 1.7E+308); Os valores devem finalizar com "d";
 
 * Lógico
 <br/>° Armazena True ou False;

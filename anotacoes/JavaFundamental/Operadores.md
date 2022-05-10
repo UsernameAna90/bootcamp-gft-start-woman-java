@@ -15,7 +15,6 @@ Operadores são símbolos que executam uma função específica em relação a u
 <br/>° - (subtração)
 <br/>° * (multiplicação)
 <br/>° / (divisão)
-<br/>° // (divisão inteira)
 <br/>° % (resto da divisão)
 
 * Atribuição
@@ -24,7 +23,6 @@ Operadores são símbolos que executam uma função específica em relação a u
 <br/>° -= (recebe um valor menos a si mesmo)
 <br/>° *= (recebe um valor multiplicado por si mesmo)
 <br/>° /= (recebe um valor dividido por si mesmo)
-<br/>° //= (recebe um valor dividindo inteiramete por si mesmo)
 <br/>° %= (recebe o resto da divisão de um valor por si mesmo)
 
 * Relacionais

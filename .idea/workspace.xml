@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c786e846-4bcd-4645-a4df-0f5a7a83c356" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/anotacoes/Git-GitHub/ciclo-de-vida.md" beforeDir="false" afterPath="$PROJECT_DIR$/anotacoes/git e github/ciclo de vida.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anotacoes/Git-GitHub/comandos-basicos-git.md" beforeDir="false" afterPath="$PROJECT_DIR$/anotacoes/git e github/comandos basicos git.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anotacoes/Git-GitHub/intoducao.md" beforeDir="false" afterPath="$PROJECT_DIR$/anotacoes/git e github/intoducao.md" afterDir="false" />
+    <list default="true" id="c786e846-4bcd-4645-a4df-0f5a7a83c356" name="Default Changelist" comment="Adcionada nova anotação em java fundamental, variaveis e constantes.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/.idea/teste-integracao-Git-IDE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/.idea/teste-integracao-Git-IDE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/.project" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/.recommenders/caches/identified-project-coordinates.json" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/.recommenders/caches/identified-project-coordinates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/.recommenders/caches/manual-mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/.recommenders/caches/manual-mappings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/src/primeiroprojeto/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/src/primeiroprojeto/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/src/primeiroprojeto/.project" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/src/primeiroprojeto/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/src/primeiroprojeto/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/src/primeiroprojeto/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/Eclipse/src/primeiroprojeto/PrimeiroProjeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/Eclipse/src/primeiroprojeto/PrimeiroProjeto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/IntelliJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/IntelliJ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/out/production/IntelliJ/primeiroprojeto/Gato.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/out/production/IntelliJ/primeiroprojeto/Gato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/out/production/IntelliJ/primeiroprojeto/PrimeiroProjeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/out/production/IntelliJ/primeiroprojeto/PrimeiroProjeto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/src/primeiroprojeto/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/src/primeiroprojeto/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos/teste-integracao-Git-IDE/IntelliJ/src/primeiroprojeto/PrimeiroProjeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/teste de integracao Git&amp;IDE/IntelliJ/src/primeiroprojeto/PrimeiroProjeto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codigos/java fundamental" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -41,6 +63,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adcionada nova anotação em java fundamental, variaveis e constantes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adcionada nova anotação em java fundamental, variaveis e constantes." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="222" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1652199800042">
       <screen x="0" y="0" width="1152" height="824" />
@@ -50,5 +76,9 @@
       <screen x="0" y="0" width="1152" height="824" />
     </state>
     <state x="51" y="0" key="CommitChangelistDialog2/0.0.1152.824@0.0.1152.824" timestamp="1652199934041" />
+    <state x="303" y="109" key="FileChooserDialogImpl" timestamp="1652208716909">
+      <screen x="0" y="0" width="1152" height="824" />
+    </state>
+    <state x="303" y="109" key="FileChooserDialogImpl/0.0.1152.824@0.0.1152.824" timestamp="1652208716909" />
   </component>
 </project>

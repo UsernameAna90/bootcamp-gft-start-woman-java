@@ -26,9 +26,6 @@ Operadores são símbolos que executam uma função específica em relação a u
 <br/>° %= (recebe o resto da divisão de um valor por si mesmo)
 
 * Relacionais
-<br/>° < (menor que)
-<br/>° > (maior que)
-<br/>° <= (menor ou igual que)
-<br/>° >= (maior ou igual que)
-<br/>° == (igual que)
-<br/>° != (diferente que)
+<br/>° Realizam comparação entre determinados operandos e retornam um resultado verdeiro ou falso.
+<br/>° Operadores de similaridade: == (igual), != (diferente);
+<br/>° Operadores de grandeza: > (maior), < (menor), >= (maior ou igual), <= (menor ou igual);

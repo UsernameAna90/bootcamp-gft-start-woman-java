@@ -29,3 +29,10 @@ Operadores são símbolos que executam uma função específica em relação a u
 <br/>° Realizam comparação entre determinados operandos e retornam um resultado verdeiro ou falso.
 <br/>° Operadores de similaridade: == (igual), != (diferente);
 <br/>° Operadores de grandeza: > (maior), < (menor), >= (maior ou igual), <= (menor ou igual);
+
+* Lógicos
+<br/>° Realizam comparação entre operandos lógicos ou expressões, e retornam um resultado verdeiro ou falso.
+<br/>° Conjunção: Retorna verdadeiro, se ambos operando forem verdadeiros. Simbologia: &&. Termibologia: and.
+<br/>° Disjunção: Retorna verdadeiro, se pelo menos um operando for verdadeiro. Simbologia: ||. Termibologia: or.
+<br/>° Disjunção exclusiva: Retorna verdadeiro, se ambos operando forem diferentes. Simbologia: ^. Termibologia: xor.
+<br/>° Negação: Inverte o valor dos operandos. Simbologia: !. Termibologia: inversão de valores.

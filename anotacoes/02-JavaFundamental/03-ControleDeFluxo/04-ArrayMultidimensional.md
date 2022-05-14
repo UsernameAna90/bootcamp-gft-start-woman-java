@@ -11,7 +11,7 @@ O array multidimensional é um objeto que armazena sequencialmente um conjunto a
 
 * Arrays multidimensionais com valores inicializados:
 <pre>
-  tipo[][] nomeArray = {{linh1valor1, linha1valorN}, {linh2valor1, linha2valorN}};
+  tipo[][] nomeArray = {{linha1valor1, linha1valorN}, {linha2valor1, linha2valorN}};
 </pre>
 
 Observações:

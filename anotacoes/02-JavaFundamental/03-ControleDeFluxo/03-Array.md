@@ -1,22 +1,22 @@
-# Array
+# Array Unidimensional
 
-O array é um objeto que armazena sequencialmente um conjunto de dados do mesmo tipo. É utilizado quando se precisa armazenar múltiplas variáveis ou valores.
+O array unidimensional é um objeto que armazena sequencialmente um conjunto de dados do mesmo tipo, formando uma linha. É utilizado quando se precisa armazenar múltiplas variáveis ou valores.
 
 ### Padrão de declaração
 
-* Para vetores vazios
+* Arays unidimensionais vazios
 <pre>
   tipo[] nomeArray = new tipo[número de elementos]
 </pre>
 
-* Para vetores com valores inicializados:
+* Arays unidimensionais com valores inicializados:
 <pre>
   tipo[] nomeArray = {valor1, valor2, valorN};
 </pre>
 
 Observações:
 
-* Vetores são percorridos por meio de estruturas de repetição;
+* Arays unidimensionais são percorridos por meio de estruturas de repetição;
 
 * Armazenam valores de um único tipo apenas;
 

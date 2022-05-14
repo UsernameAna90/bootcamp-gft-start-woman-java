@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/02-ExerciciosJavaFundamental.iml" filepath="$PROJECT_DIR$/.idea/02-ExerciciosJavaFundamental.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Metodos/02-Metodos.iml" filepath="$PROJECT_DIR$/02-Metodos/02-Metodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-LogicaCondicional/03-LogicaCondicional.iml" filepath="$PROJECT_DIR$/03-LogicaCondicional/03-LogicaCondicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-EstruturaRepeticao/04-EstruturaRepeticao.iml" filepath="$PROJECT_DIR$/04-EstruturaRepeticao/04-EstruturaRepeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Array/05-Array.iml" filepath="$PROJECT_DIR$/05-Array/05-Array.iml" />
     </modules>
   </component>
 </project>

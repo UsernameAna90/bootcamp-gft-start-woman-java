@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/03-LogicaCondicional/03-LogicaCondicional.iml" filepath="$PROJECT_DIR$/03-LogicaCondicional/03-LogicaCondicional.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-EstruturaRepeticao/04-EstruturaRepeticao.iml" filepath="$PROJECT_DIR$/04-EstruturaRepeticao/04-EstruturaRepeticao.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-Array/05-Array.iml" filepath="$PROJECT_DIR$/05-Array/05-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Collections/06-Collections.iml" filepath="$PROJECT_DIR$/06-Collections/06-Collections.iml" />
     </modules>
   </component>
 </project>

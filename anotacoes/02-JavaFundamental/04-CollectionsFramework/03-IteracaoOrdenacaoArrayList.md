@@ -30,13 +30,25 @@ A diferença entre as interfaces é que a interface Comparable fornece a sequên
 * Comparable - compareTo: Compara o objeto que chamou o método a um objeto passado como parâmetro.
 <br/>° public int compareTo(classe objeto)
   
-* Comparator - compare(): Aplicada lógica de classificação comparando cada elemento da collection.
+* Comparator - compare(): Aplicada lógica de classificação comparando cada elemento da collection. O Comparator deve ser implementado em uma classe a parte daquela que detém os objetos fazendo uso do Comparator.
 <br/>° public int compare(classe objeto1, classe objeto2)
   
-#### Ordenando listas:
+#### Ordenando listas (ArrayList):
 * Comparable
 <br/>° Collections.sort(nomeLista)
   
 * Comparator:
 <br/>° Collections.sort(nomeLista, new NomeComparator())
 <br/>° nomeLista.sort(new NomeComparator())
+  
+#### Ordenando sets (LinkedHashSet e TreeSet):
+  
+* LinkedHashSet: Ordena os objetos de acordo com sua ordem de inserção, desde que a classe dos objetos tenha sobreposto os métodos "Equals" e "HashMap". Para ordenar um set, basta passá-lo como parâmento na instanciacao de um novo LinkedHashSet.
+<br/>° Set<Classe> nomeSet = new LinkedHashSet<>(nomeSetParaOrdenar);
+  
+* TreeMap: Ordena os objetos de acordo com sua ordem natural, desde que a classe dos objetos possua implementado o Comparable e seu método compareTo, ou então desde que exista uma classe separada que implementa o Comparator e seu método compare apontando para a classe dos objetos.
+<br/>° Comparable: Set<Classe> nomeSet = new TreeSet<>(nomeSetParaOrdenar);
+<br/>° Comparator: Set<Classe> nomeSet = new TreeSet<>(new NomeComparator()); nomeSet.addAll(nomeSetParaOrdenar);
+  
+Obs: HashSet não trabalha com posições, por isso não se pode ordena-lo.
+  

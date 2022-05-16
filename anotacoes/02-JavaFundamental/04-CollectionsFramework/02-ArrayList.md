@@ -1,4 +1,6 @@
-# ArrayList
+# Interface List
+
+### ArrayList
 
 O ArrayList é uma implementação da interface List que permite criar collections, ou conjuntos de dados em uma unidade única que pode ser chamada de lista, de maneira ordenada e cujo tamanho pode aumentar ou diminuir. Ele faz parte do pacote **java.util.List**, que necessita ser importado para que seja possível implementar o ArrayList. 
 <br/>

@@ -30,6 +30,8 @@ A diferença entre as interfaces é que a interface Comparable fornece a sequên
 * Comparable - compareTo: Compara o objeto que chamou o método a um objeto passado como parâmetro.
 <br/>° public int compareTo(classe objeto)
   
+
+  
 * Comparator - compare(): Aplicada lógica de classificação comparando cada elemento da collection. O Comparator deve ser implementado em uma classe a parte daquela que detém os objetos fazendo uso do Comparator.
 <br/>° public int compare(classe objeto1, classe objeto2)
   
@@ -46,9 +48,18 @@ A diferença entre as interfaces é que a interface Comparable fornece a sequên
 * LinkedHashSet: Ordena os objetos de acordo com sua ordem de inserção, desde que a classe dos objetos tenha sobreposto os métodos "Equals" e "HashMap". Para ordenar um set, basta passá-lo como parâmento na instanciacao de um novo LinkedHashSet.
 <br/>° Set<Classe> nomeSet = new LinkedHashSet<>(nomeSetParaOrdenar);
   
-* TreeMap: Ordena os objetos de acordo com sua ordem natural, desde que a classe dos objetos possua implementado o Comparable e seu método compareTo, ou então desde que exista uma classe separada que implementa o Comparator e seu método compare apontando para a classe dos objetos.
+* TreeSet: Ordena os objetos de acordo com sua ordem natural, desde que a classe dos objetos possua implementado o Comparable e seu método compareTo, ou então desde que exista uma classe separada que implementa o Comparator e seu método compare apontando para a classe dos objetos.
 <br/>° Comparable: Set<Classe> nomeSet = new TreeSet<>(nomeSetParaOrdenar);
 <br/>° Comparator: Set<Classe> nomeSet = new TreeSet<>(new NomeComparator()); nomeSet.addAll(nomeSetParaOrdenar);
   
-Obs: HashSet não trabalha com posições, por isso não se pode ordena-lo.
+### Ordenando maps (LinkedHashMap e TreeMap):
+
+* LinkedHashMap: Ordena os objetos de acordo com sua ordem de inserção, desde que a classe dos objetos tenha sobreposto os métodos "Equals" e "HashMap". Para ordenar um set, basta passá-lo como parâmento na instanciacao de um novo LinkedHashSet.
+<br/>° Map<tipoChave tipoValor> nomeMap = new LinkedHashMap<>(nomeMapParaOrdenar);
+
+* TreeMap: Ordena os objetos de acordo com a ordem natural das suas chaves, desde que a classe dos objetos tenha sobreposto os métodos "Equals" e "HashMap". Para ordenar um set, basta passá-lo como parâmento na instanciacao de um novo TreeMap. Mas para ordená-lo de acordo com um determinado valor, é necessário implementar a interface "Comparator" e passá-la como parâmento na instanciacao de um novo SetMap
+<br/>° Comparator: Set<Map.Entry<tipoChave tipoValor>> nomeSet = new TreeSet<>(new NomeComparator()); 
+<br/>° nomeSet.addAll(nomeSetParaOrdenar.entrySet());
+<br/>
+Obs: HashSet e HashMap não trabalham com posições, por isso não se pode ordena-los diretamente.
   

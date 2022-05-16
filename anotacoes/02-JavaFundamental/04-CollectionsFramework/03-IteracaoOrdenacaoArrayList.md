@@ -33,7 +33,7 @@ A diferença entre as interfaces é que a interface Comparable fornece a sequên
 * Comparator - compare(): Aplicada lógica de classificação comparando cada elemento da collection. O Comparator deve ser implementado em uma classe a parte daquela que detém os objetos fazendo uso do Comparator.
 <br/>° public int compare(classe objeto1, classe objeto2)
   
-#### Ordenando listas (ArrayList):
+### Ordenando listas (ArrayList):
 * Comparable
 <br/>° Collections.sort(nomeLista)
   
@@ -41,7 +41,7 @@ A diferença entre as interfaces é que a interface Comparable fornece a sequên
 <br/>° Collections.sort(nomeLista, new NomeComparator())
 <br/>° nomeLista.sort(new NomeComparator())
   
-#### Ordenando sets (LinkedHashSet e TreeSet):
+### Ordenando sets (LinkedHashSet e TreeSet):
   
 * LinkedHashSet: Ordena os objetos de acordo com sua ordem de inserção, desde que a classe dos objetos tenha sobreposto os métodos "Equals" e "HashMap". Para ordenar um set, basta passá-lo como parâmento na instanciacao de um novo LinkedHashSet.
 <br/>° Set<Classe> nomeSet = new LinkedHashSet<>(nomeSetParaOrdenar);

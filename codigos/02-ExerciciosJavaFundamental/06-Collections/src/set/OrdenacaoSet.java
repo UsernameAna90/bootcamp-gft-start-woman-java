@@ -20,6 +20,10 @@ public class OrdenacaoSet {
             System.out.println(next);
         }
 
+        for (Serie s : series) {
+            System.out.println(s);
+        }
+
         //Ordenar de acordo com a ordem de insercao
         Set<Serie> series2 = new LinkedHashSet<Serie>() {{
             add(new Serie("GOT", "Fantasia, Acao", 60));
@@ -54,5 +58,6 @@ public class OrdenacaoSet {
         for (Serie s : series4) {
             System.out.println(s.getNome()+" - "+s.getGenero()+" - "+s.getDuracao());
         }
+
     }
 }

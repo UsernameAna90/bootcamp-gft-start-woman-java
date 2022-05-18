@@ -16,11 +16,11 @@ Dois tipos de erros podem ser encontrados: erros de sintaxe e erros de semântic
 
 * Pode-se executar linha por linha, ou resumir a execução até o linha onde se acredita estar o erro;
 
-* Pode-se fazer uso de diversos recursos para analisar o código:
-<br/>° Step Over: Executa próxima operação sem entrar no método;
-<br/>° Step Into: Executa próxima operação entrandor no método;
-<br/>° Step Out: Sai do método sem terminar sua execução;  
-<br/>° Evaluate: Simula a execução de um método;
-<br/>° Variables: Inpeciona uma variável;
-<br/>° Re-run: Executa novamente o código;
-<br/>° Stop: Para a execução do debug;
+* Pode-se fazer uso de diversos recursos para analisar o código:<br/>
+° Step Over: Executa próxima operação sem entrar no método;<br/>
+° Step Into: Executa próxima operação entrandor no método;<br/>
+° Step Out: Sai do método sem terminar sua execução;<br/>
+° Evaluate: Simula a execução de um método;<br/>
+° Variables: Inpeciona uma variável;<br/>
+° Re-run: Executa novamente o código;<br/>
+° Stop: Para a execução do debug;

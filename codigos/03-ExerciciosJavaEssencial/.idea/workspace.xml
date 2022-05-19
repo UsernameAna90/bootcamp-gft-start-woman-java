@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f3a7d2e-ca91-49ac-badd-8ac665b06566" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Debugging/src/debuggingcode/DebuggingCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-Debugging/src/debuggingcode/DebuggingCode.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f3a7d2e-ca91-49ac-badd-8ac665b06566" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-TratamentoDeExcecoes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-EstuturaBasicaOO" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,13 +50,13 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="338" y="70" key="EnvironmentVariablesDialog/0.0.1024.728@0.0.1024.728" timestamp="1652839637690" />
-    <state x="239" y="60" key="FileChooserDialogImpl" timestamp="1652915884398">
+    <state x="239" y="60" key="FileChooserDialogImpl" timestamp="1652973332573">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="239" y="60" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1652915884398" />
-    <state x="0" y="0" key="new project wizard" timestamp="1652915758894">
+    <state x="239" y="60" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1652973332573" />
+    <state x="0" y="0" key="new project wizard" timestamp="1652973277055">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1024.728@0.0.1024.728" timestamp="1652915758894" />
+    <state x="0" y="0" key="new project wizard/0.0.1024.728@0.0.1024.728" timestamp="1652973277055" />
   </component>
 </project>

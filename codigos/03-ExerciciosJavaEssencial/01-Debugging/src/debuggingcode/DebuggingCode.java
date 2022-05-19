@@ -13,20 +13,19 @@ public class DebuggingCode {
         String[] alunos = {"Ana", "Sebastian", "Artemis", "Alice"};
         //Objeto para entrada de dados
         Scanner scan = new Scanner(System.in);
-        int input = scan.nextInt();
         //Chamando metodo e armazenando resultado
-        int media = calcularMedia(alunos, input);
+        int media = calcularMedia(alunos, scan);
 
         System.out.println("Media das notas: "+media);
     }
 
-    static int calcularMedia(String[] alunos, int input) {
+    static int calcularMedia(String[] alunos, Scanner input) {
         int soma = 0;
 
         //Recebendo e somando notas
         for (String nome : alunos) {
             System.out.print("Insira nota do(a) "+nome+": ");
-            soma += input;
+            soma += input.nextInt();
         }
 
         //Retornando media

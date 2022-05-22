@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/03-OrientacaoObjetos.iml" filepath="$PROJECT_DIR$/03-OrientacaoObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BancoDigitalOne.iml" filepath="$PROJECT_DIR$/BancoDigitalOne.iml" />
     </modules>
   </component>
 </project>

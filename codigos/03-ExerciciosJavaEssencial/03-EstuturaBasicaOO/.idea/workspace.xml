@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d48dc9c-fb5e-4259-a670-12d9916ac18f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-EstuturaBasicaOO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/META-INF/03-EstuturaBasicaOO.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/associacaoagregacao/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/associacaoagregacao/AssociacaoAgregacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/associacaoagregacao/Curso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/associacaocomposicao/AssociacaoComposicao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/associacaocomposicao/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/associacaocomposicao/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/estruturabasica/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/estruturabasica/EstruturaBasica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/herancapolimorfismo/Faxineiro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/herancapolimorfismo/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/herancapolimorfismo/Gerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/herancapolimorfismo/HerancaPolimorfismo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/interfaceclasses/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/interfaceclasses/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03-EstuturaBasicaOO/interfaceclasses/OperacoesBasicas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/associacaoagregacao/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/associacaoagregacao/AssociacaoAgregacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/associacaoagregacao/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/associacaocomposicao/AssociacaoComposicao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/associacaocomposicao/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/associacaocomposicao/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturabasica/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturabasica/EstruturaBasica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herancapolimorfismo/Faxineiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herancapolimorfismo/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herancapolimorfismo/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herancapolimorfismo/HerancaPolimorfismo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceclasses/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceclasses/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceclasses/OperacoesBasicas.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="29O9bPBZqwf2ElY9RgHEFDehNo5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03-OrientacaoObjetos" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <envs>
+        <env name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_331" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="interfaceclasses.Main" />
+      <module name="03-EstuturaBasicaOO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d48dc9c-fb5e-4259-a670-12d9916ac18f" name="Default Changelist" comment="" />
+      <created>1652973335323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652973335323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="10" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653000446977">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="0" y="10" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.728@0.0.1024.728" timestamp="1653000446977" />
+    <state x="270" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1653000151889">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="270" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1653000151889" />
+    <state x="342" y="49" key="EnvironmentVariablesDialog" timestamp="1652975798937">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="342" y="49" key="EnvironmentVariablesDialog/0.0.1024.728@0.0.1024.728" timestamp="1652975798937" />
+    <state x="239" y="60" key="FileChooserDialogImpl" timestamp="1653001038044">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="239" y="60" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1653001038044" />
+    <state width="952" height="244" key="GridCell.Tab.0.bottom" timestamp="1653001039497">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="952" height="244" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1653001039497" />
+    <state width="952" height="244" key="GridCell.Tab.0.center" timestamp="1653001039497">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="952" height="244" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1653001039497" />
+    <state width="952" height="244" key="GridCell.Tab.0.left" timestamp="1653001039497">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="952" height="244" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1653001039497" />
+    <state width="952" height="244" key="GridCell.Tab.0.right" timestamp="1653001039497">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="952" height="244" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1653001039497" />
+  </component>
+</project>

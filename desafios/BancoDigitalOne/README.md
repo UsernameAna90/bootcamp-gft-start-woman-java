@@ -1,7 +1,7 @@
 # Banco Digital One
 
 Desafio de projeto da Digital Innovation One, a fim de aplicar princípios e técnicas de Programação Orientada a Objetos utilizando a linguagem Java.
-O projeto consiste no desenvolvimento de uma aplicação que simula fucionalidades básicas de um Banco Digital. Alguma das principais funções da aplicação:
+O projeto consiste no desenvolvimento de uma aplicação que simula fucionalidades básicas de um Banco Digital. Algumas das principais funções da aplicação consistem em:
 
 - Abertura de conta corrente ou conta poupança;
 - Realização de depósito e Saque;
@@ -14,7 +14,9 @@ O projeto consiste no desenvolvimento de uma aplicação que simula fucionalidad
 - Listagem das contas do titular;
 - Deslogar da conta atual, e Logar em outra conta;
 
-O diagrama de classes a seguir fornece uma visão macro da aplicação implantada:
+<br>
+
+## O diagrama de classes a seguir fornece uma visão macro da aplicação:
 
 <br>
 

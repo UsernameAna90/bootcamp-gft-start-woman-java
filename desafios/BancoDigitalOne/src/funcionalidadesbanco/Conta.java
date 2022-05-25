@@ -9,14 +9,12 @@ public abstract class Conta {
     private int numeroConta;
     private int numeroAgencia;
     private double saldoDisponivel = 0; //A conta é aberta sem saldo
-    private String tipoConta;
 
     //Construtor
-    public Conta(int idConta, String tipoConta) {
+    public Conta(int idConta) {
         this.idConta = idConta;
         this.gerarNumeroConta();
         this.gerarNumeroAgencia();
-        this.setTipoConta(tipoConta);
     }
 
     //Auxiliares
@@ -40,14 +38,6 @@ public abstract class Conta {
         this.saldoDisponivel = saldoDisponivel;
     }
 
-    public String getTipoConta() {
-        return tipoConta;
-    }
-
-    public void setTipoConta(String tipoConta) {
-        this.tipoConta = tipoConta;
-    }
-
     //Metodos
 
     //Gera um numero aleatorio
@@ -65,42 +55,18 @@ public abstract class Conta {
 
     public void depositar(double deposito) {
         //Realiza o deposito de um valor na conta, que vai para o saldo disponivel
-        this.setSaldoDisponivel(getSaldoDisponivel() + deposito);
-
-        System.out.println("Deposito de R$"+String.format("%.2f", deposito)+" realizado com sucesso!");
-        this.verSaldo();
+        this.setSaldoDisponivel(this.getSaldoDisponivel() + deposito);
     }
 
     public void sacar(double saque) {
-        //Se houver saldo disponivel suficiente na conta, realiza o saque slicitado.
-        int valorSaqueMaximo = 1000;
-
-        if (saque > this.getSaldoDisponivel()) {
-            System.out.println("Impossível realizar saque. Saldo indisponível!");
-        } else if(saque > valorSaqueMaximo) {
-            System.out.println("Impossível realizar saque. Valor excede o permitido!");
-        } else {
-            this.setSaldoDisponivel(this.getSaldoDisponivel() - saque);
-            System.out.println("Saque de R$"+String.format("%.2f", saque)+" realizado com sucesso!");
-            this.verSaldo();
-        }
+        //Realiza o saque solicitado.
+        this.setSaldoDisponivel(this.getSaldoDisponivel() - saque);
     }
 
     public void transferir(double valor, Conta conta) {
-        //Se a conta informada existir, e se o saldo na conta solicitante nao for invalido
-        //realiza a tranferencia sacando da conta do solicitante e depositando na conta solicitada
-        int valorTransferenciaMaxima = 1000;
-
-        if (this.getSaldoDisponivel() < valor) {
-            System.out.println("Impossível realizar saque. Saldo indisponível!");
-        } else if(valor > valorTransferenciaMaxima) {
-            System.out.println("Impossível realizar saque. Valor excede o permitido!");
-        } else {
-            this.setSaldoDisponivel(this.getSaldoDisponivel() - valor);
-            conta.setSaldoDisponivel(conta.getSaldoDisponivel() + valor);
-            System.out.println("Transferencia de R$"+String.format("%.2f", valor)+" realizada com sucesso!");
-            this.verSaldo();
-        }
+        //Realiza a transferencia sacando da conta do solicitante e depositando na conta solicitada
+        this.sacar(valor);
+        conta.depositar(valor);
     }
 
     //Imprime o valor de saldo disponivel na conta
@@ -108,8 +74,7 @@ public abstract class Conta {
 
     @Override
     public String toString() {
-        return "Tipo de Conta: " + tipoConta +
-                "\nNumero da Conta: " + numeroConta +
+        return "Numero da Conta: " + numeroConta +
                 "\nNumero da Agencia: " + numeroAgencia +
                 "\nSaldo Disponivel: R$" + String.format("%.2f", saldoDisponivel);
     }

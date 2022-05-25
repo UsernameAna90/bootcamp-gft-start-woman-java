@@ -1,16 +1,14 @@
 package dadosclientes;
 
-import funcionalidadesbanco.Conta;
-import lombok.AllArgsConstructor;
+
+import funcionalidadesbanco.ContaCorrente;
+import funcionalidadesbanco.ContaPoupanca;
 import lombok.Getter;
 import lombok.Setter;
 
 //Auxiliares
 @Getter
 @Setter
-
-//Construtor
-@AllArgsConstructor
 
 public class Cliente {
 
@@ -22,7 +20,20 @@ public class Cliente {
     private String email;
     private double salario;
     private Endereco endereco;
-    private Conta conta;
+    private String tipoConta;
+    private ContaCorrente contaCorrente;
+    private ContaPoupanca contaPoupanca;
+
+    //Construtor
+    public Cliente(int idCliente, String nome, int idade, String cpf, String email, double salario, Endereco endereco) {
+        this.idCliente = idCliente;
+        this.nome = nome;
+        this.idade = idade;
+        this.cpf = cpf;
+        this.email = email;
+        this.salario = salario;
+        this.endereco = endereco;
+    }
 
     //Metodos
     public void atualizarDados(int opcao, String novoValor) {
@@ -30,31 +41,27 @@ public class Cliente {
         switch (opcao) {
             case 1:
                 this.setNome(novoValor);
-                System.out.println("Nome atualizado com sucesso!");
+                System.out.println("\nNome atualizado com sucesso!");
                 break;
             case 2:
                 this.setIdade(Integer.parseInt(novoValor));
-                System.out.println("Idade atualizada com sucesso!");
+                System.out.println("\nIdade atualizada com sucesso!");
                 break;
             case 3:
-                this.setCpf(novoValor);
-                System.out.println("CPF atualizado com sucesso!");
+                this.setEmail(novoValor);
+                System.out.println("\nEmail atualizado com sucesso!");
                 break;
             case 4:
-                this.setEmail(novoValor);
-                System.out.println("Email atualizado com sucesso!");
-                break;
-            case 5:
                 this.setSalario(Double.parseDouble(novoValor));
-                System.out.println("Salario atualizado com sucesso!");
+                System.out.println("\nSalario atualizado com sucesso!");
                 break;
             default:
-                System.out.println("Impossivel atualizar. Valor invalido!");
+                System.out.println("\nImpossivel atualizar. Valor invalido!");
 
         }
     }
 
-    public String visualizarDados() {
+    public String visualizarDadosContaCorrente() {
         return "ID: " + idCliente +
                 "\nNome: " + nome +
                 "\nIdade: " + idade +
@@ -62,6 +69,19 @@ public class Cliente {
                 "\nEmail: " + email +
                 "\nSalario: " + String.format("%.2f", salario) +
                 "\n" + endereco +
-                "\n" + conta;
+                "\nTipo de Conta: " + tipoConta +
+                "\n" + contaCorrente;
+    }
+
+    public String visualizarDadosContaPoupanca() {
+        return "ID: " + idCliente +
+                "\nNome: " + nome +
+                "\nIdade: " + idade +
+                "\nCPF: " + cpf +
+                "\nEmail: " + email +
+                "\nSalario: " + String.format("%.2f", salario) +
+                "\n" + endereco +
+                "\nTipo de Conta: " + tipoConta +
+                "\n" + contaPoupanca;
     }
 }

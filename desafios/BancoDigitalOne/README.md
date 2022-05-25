@@ -16,4 +16,6 @@ O projeto consiste no desenvolvimento de uma aplicação que simula fucionalidad
 
 O diagrama de classes a seguir fornece uma visão macro da aplicação implantada:
 
-![Diagrama de Classes: Banco Digital One](http://developer.r-project.org/Logo/Rlogo-5.png)
+<br>
+
+![Diagrama de Classes: Banco Digital One](https://github.com/UsernameAna90/bootcamp-gft-start-woman-java/blob/main/desafios/BancoDigitalOne/img/DiagramaDeClassesBancoDigitalOne.drawio.png)

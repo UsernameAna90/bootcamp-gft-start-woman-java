@@ -21,13 +21,8 @@ public class TestIntController {
 
     @Test
     public void testInt() throws Exception {
-        RequestBuilder requisicao = get("\test");
+        RequestBuilder requisicao = get();
         MvcResult resultado = mvc.perform(requisicao).andReturn();
         assertEquals("Bem vindo(a), Pessoa", resultado.getResponse().getContentAsString());
     }
-
-    private RequestBuilder get(String string) {
-        return null;
-    }
-
 }
